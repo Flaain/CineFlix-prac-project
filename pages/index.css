@@ -56,3 +56,7 @@
 @import url(../blocks/banner/__icon/banner__icon.css);
 @import url(../blocks/banner/__description/banner__description.css);
 @import url(../blocks/banner/__title/banner__title.css);
+
+/* Импортируем keyframes */
+
+@import url(../blocks/keyframes/keyframes.css);
