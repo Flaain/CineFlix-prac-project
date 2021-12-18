@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="pages/index.css" />
+        <title>CineFlix</title>
+    </head>
+    <body class="body">
+        <div class="page body__page">
+            <header class="header">
+                <div class="header__container">
+                    <a href="#" class="logo logo_place_header"></a>
+                    <nav class="header__nav header_desktop-nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class="header__link">Home</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Category</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">LIVE</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__right-bar">
+                        <form action="#" class="search header__search">
+                            <input type="text" class="search__header" placeholder="I`m looking for..." />
+                            <button class="search__btn">
+                                <ion-icon class="search__icon" name="search-outline"></ion-icon>
+                            </button>
+                        </form>
+                        <a href="#" class="header__signin-btn">Sign in<ion-icon class="header__signin-icon" name="log-in-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </header>
+            <main class="content">
+                <section class="banner">
+                    <div class="banner__card">
+                        <img src="images/John-Wick-3.jpg" alt="Изображение баннера" class="banner__image">
+                        <div class="banner__text">
+                            <ul class="banner__list">
+                                <li class="banner__item">
+                                    <ion-icon name="film" role="img" class="banner__icon" aria-label="film"></ion-icon>
+                                    <span class="banner__description">Action/Thriller</span>
+                                </li>
+                                <li class="banner__item">
+                                    <ion-icon name="calendar" role="img" class="banner__icon" aria-label="calendar"></ion-icon>
+                                    <span class="banner__description">2019</span>
+                                </li>
+                                <li class="banner__item">
+                                    <ion-icon name="time" role="img" class="banner__icon" aria-label="time"></ion-icon>
+                                    <span class="banner__description">2h 11m</span>
+                                </li>
+                                <li class="banner__item">
+                                    <span class="banner__description">4K</span>
+                                </li>
+                            </ul>
+                            <h2 class="banner__title">John Wick: Chapter 3 - Parabellum</h2>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="pages/index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
