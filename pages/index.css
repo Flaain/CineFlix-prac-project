@@ -36,6 +36,7 @@
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__signin-btn/header__signin-btn.css);
 @import url(../blocks/header/__signin-icon/header__signin-icon.css);
+@import url(../blocks/header/__link/_indicator/header__link_indicator.css);
 
 /* Импортируем search */
 
