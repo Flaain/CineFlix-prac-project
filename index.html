@@ -37,7 +37,7 @@
                 </div>
             </header>
             <main class="content">
-                <section class="banner">
+                <section class="banner page__banner">
                     <div class="banner__card">
                         <a href="#" class="banner__link"><img src="images/John-Wick-3.jpg" alt="Изображение баннера" class="banner__image" /></a>
                         <div class="banner__text">
@@ -59,6 +59,39 @@
                                 </li>
                             </ul>
                             <h2 class="banner__title">John Wick: Chapter 3 - Parabellum</h2>
+                        </div>
+                    </div>
+                </section>
+                <section class="movies">
+                    <div class="filter movies__filter">
+                        <div class="filter__left-side">
+                            <select name="genre" class="filter__dropdown filter__dropdown_genre">
+                                <option selected class="filter__option" value="all genres">All genres</option>
+                                <option class="filter__option" value="action">Action</option>
+                                <option class="filter__option" value="adventure">Adventure</option>
+                                <option class="filter__option" value="animal">Animal</option>
+                                <option class="filter__option" value="animation">Animation</option>
+                                <option class="filter__option" value="biography">Biography</option>
+                            </select>
+                            <!-- <ion-icon class="filter__dropdown-icon" name="chevron-down-outline"></ion-icon> -->
+                            <select name="year" class="filter__dropdown filter__dropdown_year">
+                                <option selected class="filter__option" value="all years">All the years</option>
+                                <option class="filter__option" value="2022">2022</option>
+                                <option class="filter__option" value="2020-2021">2020-2021</option>
+                                <option class="filter__option" value="2010-2019">2010-2019</option>
+                                <option class="filter__option" value="2000-2009">2000-2009</option>
+                                <option class="filter__option" value="1980-1999">1980-1999</option>
+                            </select>
+                            <!-- <ion-icon class="filter__dropdown-icon" name="chevron-down-outline"></ion-icon> -->
+                        </div>
+                        <div class="filter__right-side">
+                            <input type="radio" name="grade" checked id="featured" class="filter__radio filter__radio_featured" />
+                            <label for="featured" class="filter__radio-text">Featured</label>
+                            <input type="radio" name="grade" id="popular" class="filter__radio filter__radio_popular" />
+                            <label for="popular" class="filter__radio-text">Popular</label>
+                            <input type="radio" name="grade" id="newest" class="filter__radio filter__radio_newest" />
+                            <label for="newest" class="filter__radio-text">Newest</label>
+                            <div class="filter__radio-bg"></div>
                         </div>
                     </div>
                 </section>
