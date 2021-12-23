@@ -109,10 +109,9 @@
 @import url(../blocks/cards/__block/cards__block.css);
 @import url(../blocks/cards/__block-text/cards__block-text.css);
 @import url(../blocks/cards/__block-subtitle/cards__block-subtitle.css);
-@import url(../blocks/cards/__block/_recommend/cards__block_recommend.css);
-@import url(../blocks/cards/__block-text/_recommend/cards__block-text_recommend.css);
-@import url(../blocks/cards/__block-title/_recommend/cards__block-title_recommend.css);
-@import url(../blocks/cards/__block-subtitle/_recommend/cards__block-subtitle_recommend.css);
+
+/* Импортируем настройки оверлея для cards */
+
 @import url(../blocks/cards/__overlay/cards__overlay.css);
 @import url(../blocks/cards/__overlay-bookmark/cards__overlay-bookmark.css);
 @import url(../blocks/cards/__overlay-bookmark-icon/cards__overlay-bookmark-icon.css);
@@ -121,3 +120,16 @@
 @import url(../blocks/cards/__overlay-rating-text/cards__overlay-rating-text.css);
 @import url(../blocks/cards/__overlay-play/cards__overlay-play.css);
 @import url(../blocks/cards/__overlay-play-icon/cards__overlay-play-icon.css);
+
+/* Импортируем значение_модификатор type_recommend для cards */
+
+@import url(../blocks/cards/__block/_type/cards__block_type_recommend.css);
+@import url(../blocks/cards/__block-text/_type/cards__block-text_type_recommend.css);
+@import url(../blocks/cards/__block-title/_type/cards__block-title_type_recommend.css);
+@import url(../blocks/cards/__block-subtitle/_type/cards__block-subtitle_type_recommend.css);
+
+/* Импортируем значение_модификатор type_real для cards */
+
+@import url(../blocks/cards/__block/_type/cards__block_type_real.css);
+@import url(../blocks/cards/__block-text/_type/cards__block-text_type_real.css);
+@import url(../blocks/cards/__block-title/_type/cards__block-title_type_real.css);
