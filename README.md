@@ -1,5 +1,14 @@
 # ![Image alt](https://github.com/flaain/CineFlix-prac-project/raw/master/images/logo/logo.png) тренировочный проект
 ____
+## Описание проекта
+ ```
+Проект из себя предстовляет бесплатный онлайн-кинотеатр
+```
+
+ ```
+ В основе проекта лежит методология БЭМ, поэтому все элементы независимы 
+ друг от друга и могут использоваться на странице повторно
+```
 ### Главная страница проекта
 ![Image alt](https://github.com/flaain/CineFlix-prac-project/raw/master/images/Screenshot_1.png)
 ### Блок с карточками фильмов
