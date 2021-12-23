@@ -89,3 +89,35 @@
 @import url(../blocks/filter/__radio/_newest/filter__radio_newest.css);
 @import url(../blocks/filter/__radio/_popular/filter__radio_popular.css);
 @import url(../blocks/filter/__radio-bg/filter__radio-bg.css);
+
+/* Импортируем cards */
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__list/cards__list.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__head/cards__head.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__body/cards__body.css);
+@import url(../blocks/cards/__subtitle/cards__subtitle.css);
+@import url(../blocks/cards/__text/cards__text.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__age/cards__age.css);
+@import url(../blocks/cards/__age-image/cards__age-image.css);
+@import url(../blocks/cards/__block-title/cards__block-title.css);
+@import url(../blocks/cards/__subtitle/_color/cards__subtitle_color_subscribe.css);
+@import url(../blocks/cards/__block/cards__block.css);
+@import url(../blocks/cards/__block-text/cards__block-text.css);
+@import url(../blocks/cards/__block-subtitle/cards__block-subtitle.css);
+@import url(../blocks/cards/__block/_recommend/cards__block_recommend.css);
+@import url(../blocks/cards/__block-text/_recommend/cards__block-text_recommend.css);
+@import url(../blocks/cards/__block-title/_recommend/cards__block-title_recommend.css);
+@import url(../blocks/cards/__block-subtitle/_recommend/cards__block-subtitle_recommend.css);
+@import url(../blocks/cards/__overlay/cards__overlay.css);
+@import url(../blocks/cards/__overlay-bookmark/cards__overlay-bookmark.css);
+@import url(../blocks/cards/__overlay-bookmark-icon/cards__overlay-bookmark-icon.css);
+@import url(../blocks/cards/__overlay-rating/cards__overlay-rating.css);
+@import url(../blocks/cards/__overlay-rating-icon/cards__overlay-rating-icon.css);
+@import url(../blocks/cards/__overlay-rating-text/cards__overlay-rating-text.css);
+@import url(../blocks/cards/__overlay-play/cards__overlay-play.css);
+@import url(../blocks/cards/__overlay-play-icon/cards__overlay-play-icon.css);
